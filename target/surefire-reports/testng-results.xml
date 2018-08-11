@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="41677" started-at="2018-08-11T12:05:54Z" finished-at="2018-08-11T12:06:36Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="41677" started-at="2018-08-11T12:05:54Z" finished-at="2018-08-11T12:06:36Z">
+      <class name="com.selenium.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.testcases.LoginPageTest@c038203]" name="setup" is-config="true" duration-ms="10534" started-at="2018-08-11T12:05:54Z" finished-at="2018-08-11T12:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginPageTestMethod()[pri:0, instance:com.selenium.testcases.LoginPageTest@c038203]" name="loginPageTestMethod" duration-ms="3938" started-at="2018-08-11T12:06:05Z" finished-at="2018-08-11T12:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.LoginPageTest@c038203]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-08-11T12:06:09Z" finished-at="2018-08-11T12:06:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.LoginPageTest -->
+      <class name="com.selenium.testcases.RegisterPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="setup" is-config="true" duration-ms="12023" started-at="2018-08-11T12:06:10Z" finished-at="2018-08-11T12:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerPageTestMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="registerPageTestMethod" duration-ms="542" started-at="2018-08-11T12:06:22Z" data-provider="getCRMTestData" finished-at="2018-08-11T12:06:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bharath]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bhat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="tearDown" is-config="true" duration-ms="719" started-at="2018-08-11T12:06:22Z" finished-at="2018-08-11T12:06:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="setup" is-config="true" duration-ms="11053" started-at="2018-08-11T12:06:23Z" finished-at="2018-08-11T12:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerPageTestMethod(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="registerPageTestMethod" duration-ms="801" started-at="2018-08-11T12:06:34Z" data-provider="getCRMTestData" finished-at="2018-08-11T12:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tst]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[tst@test.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerPageTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.selenium.testcases.RegisterPageTest@cc285f4]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-08-11T12:06:35Z" finished-at="2018-08-11T12:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.testcases.RegisterPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

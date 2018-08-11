@@ -1,0 +1,6 @@
+com\selenium\base\TestBase.class
+com\selenium\pages\HomePage.class
+com\selenium\pages\LoginPage.class
+com\selenium\pages\RegisterPage.class
+com\selenium\utils\WebEventListener.class
+com\selenium\utils\TestUtils.class
